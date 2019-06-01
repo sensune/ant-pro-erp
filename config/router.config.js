@@ -54,9 +54,9 @@ export default [
         name: '生产管理',
         routes: [
           {
-            path: '/sale/machine-type',
+            path: '/sale/process',
             name: '机型查询',
-            component: './Sale/MachineType',
+            component: './Sale/process',
           },
         ],
       },
