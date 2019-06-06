@@ -2,6 +2,7 @@ import React, { PureComponent, Fragment } from 'react';
 import { Card, Table, Divider } from 'antd';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
 
+
 const data = [
   {
     name: '齿轮箱',
@@ -116,6 +117,7 @@ const data = [
     ROW_NUMBER: '10',
   },
 ];
+
 
 class Process extends PureComponent {
   columns = [

@@ -55,8 +55,13 @@ export default [
         routes: [
           {
             path: '/sale/process',
-            name: '机型查询',
+            name: '工序查询',
             component: './Sale/process',
+          },
+          {
+            path: '/sale/new-page',
+            name: 'test',
+            component: './Sale/NewPage',
           },
         ],
       },
