@@ -7,7 +7,7 @@ module.exports = {
   "autoHideHeader": false,
   "fixSiderbar": true,
   "menu": {
-    "disableLocal": false
+    "disableLocal": true
   },
   "title": "Ant Design Pro",
   "pwa": true,
