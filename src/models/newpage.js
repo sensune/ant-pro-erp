@@ -7,10 +7,7 @@ export default {
 
   //  State 是储存数据的地方，收到 Action 以后，会更新数据。
   state: {
-    data: {
-      list: [],
-      pagination: {},
-    },
+    data: [],
   },
 
   effects: {

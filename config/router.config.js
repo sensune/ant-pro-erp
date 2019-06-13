@@ -49,19 +49,24 @@ export default [
       },
       // 生产管理
       {
-        path: '/sale',
+        path: '/produce',
         icon: 'folder',
         name: '生产管理',
         routes: [
           {
-            path: '/sale/process',
+            path: '/produce/process',
             name: '工序查询',
-            component: './Sale/process',
+            component: './produce/process',
           },
           {
-            path: '/sale/new-page',
+            path: '/produce/wage',
+            name: '工价查询',
+            component: './produce/wage',
+          },
+          {
+            path: '/produce/new-page',
             name: 'test',
-            component: './Sale/NewPage',
+            component: './produce/NewPage',
           },
         ],
       },
